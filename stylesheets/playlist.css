@@ -1,0 +1,136 @@
+body {
+    font-family: monospace;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(33, 0, 0));
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-color: rgb(33, 0, 0);
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.505);
+}
+
+.playlist {
+    margin-top: 10%;
+}
+
+
+.right {
+    float: right;
+    margin-top: 10%;
+    margin-right: 20%;
+    width: 500px;
+}
+
+.left {
+    float: left;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 500px;
+}
+
+iframe {
+    border-radius: 5%;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+}
+
+.filler {
+    opacity: 0.1;
+}
+
+/* Tablet Mode */
+@media (max-width:700px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .right {
+        float: right;
+        margin-top: 10%;
+        margin-left: 20%;
+        width: 400px;
+    }
+
+    .left {
+        float: left;
+        margin-top: 10%;
+        margin-left: 20%;
+        width: 400px;
+    }
+
+    iframe {
+        border-radius: 5%;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: rgb(255, 255, 255);
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+/* btwn a tablet and a smartphone*/
+@media (max-width: 540px) {
+    h1 {
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .right {
+        margin-top: 10%;
+        margin: 1%;
+        width: 250px;
+    }
+
+    .left {
+        margin-top: 10%;
+        margin: 1%;
+        width: 240px;
+    }
+
+    iframe {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+/* smartphone */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .right {
+        margin-top: 10%;
+        margin: 1%;
+        width: 200px;
+    }
+
+    .left {
+        margin-top: 10%;
+        margin: 1%;
+        width: 200px;
+    }
+
+    iframe {
+        width: 150px;
+        height: 100px;
+    }
+
+}

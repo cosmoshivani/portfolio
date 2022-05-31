@@ -1,0 +1,136 @@
+body {
+    font-family: monospace;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(33, 0, 0));
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-color: rgb(33, 0, 0);
+}
+
+.box {
+    padding-bottom: 10px;
+
+}
+
+video {
+    width: 750px;
+    height: 550px;
+    border-radius: 5%;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: center;
+}
+
+@media (min-width: 1010px) {
+
+    h2 {
+        font-size: 30px;
+        margin-top: 2%;
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    video {
+        margin-top: 2%;
+        width: 750px;
+        height: 550px;
+        border-radius: 5%;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: rgb(255, 255, 255);
+    }
+
+}
+
+@media (max-width: 1010px) {
+
+    h2 {
+        font-size: 25px;
+        margin-top: 20%;
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    video {
+        margin: auto;
+        width: 550px;
+        height: 350px;
+        border-radius: 5%;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: rgb(255, 255, 255);
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    h2 {
+        font-size: 15px;
+        margin-top: 20%;
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    video {
+        margin: auto;
+        width: 350px;
+        height: 250px;
+        border-radius: 5%;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: rgb(255, 255, 255);
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    h2 {
+        font-size: 15px;
+        margin-top: 20%;
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    video {
+        margin: auto;
+        width: 250px;
+        height: 150px;
+        border-radius: 5%;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: rgb(255, 255, 255);
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    h2 {
+        font-size: 12px;
+        margin-top: 20%;
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    video {
+        margin: auto;
+        width: 200px;
+        height: 100px;
+        border-radius: 5%;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: rgb(255, 255, 255);
+    }
+
+}

@@ -1,0 +1,138 @@
+body {
+    font-family: monospace;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(33, 0, 0));
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-color: rgb(33, 0, 0);
+}
+
+.container {
+    border-radius: 2%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+table {
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 20%;
+}
+
+td {
+    border-radius: 3%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    padding: 10px;
+    border-radius: 3%;
+    width: 400px;
+}
+
+img:hover {
+    opacity: 0.8;
+
+}
+
+@media (min-width: 1010px) {
+
+    a {
+        padding: 20%;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 15px !important;
+
+    }
+
+
+}
+
+@media (max-width: 1500px) {
+    td {
+        border-radius: 3%;
+        border-style: dashed;
+        border-width: 1px;
+        border-color: aliceblue;
+        background-color: rgb(255, 255, 255);
+    }
+
+    img {
+        padding: 10px;
+        border-radius: 3%;
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    td {
+        border-radius: 3%;
+        border-style: dashed;
+        border-width: 1px;
+        border-color: aliceblue;
+        background-color: rgb(255, 255, 255);
+    }
+
+    img {
+        padding: 10px;
+        border-radius: 3%;
+        width: 200px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+    td {
+        border-radius: 3%;
+        border-style: dashed;
+        border-width: 1px;
+        border-color: aliceblue;
+        background-color: rgb(255, 255, 255);
+    }
+
+    img {
+        padding: 7px;
+        border-radius: 3%;
+        width: 150px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    td {
+        border-radius: 3%;
+        border-style: dashed;
+        border-width: 1px;
+        border-color: aliceblue;
+        background-color: rgb(255, 255, 255);
+    }
+
+    img {
+        padding: 7px;
+        border-radius: 3%;
+        width: 100px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    td {
+        border-radius: 3%;
+        border-style: dashed;
+        border-width: 1px;
+        border-color: aliceblue;
+        background-color: rgb(255, 255, 255);
+    }
+
+    img {
+        padding: 1px;
+        border-radius: 3%;
+        width: 50px;
+    }
+
+}

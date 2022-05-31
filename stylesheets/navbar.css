@@ -1,0 +1,58 @@
+.container {
+    font-family: monospace;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    padding: 4%;
+}
+
+li {
+    list-style-type: none;
+    padding: 3%;
+    font-size: 16px;
+}
+
+a {
+    padding: 20%;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(253, 253, 0);
+    color: rgba(0, 0, 0, 0.744);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3%;
+}
+
+
+
+
+@media (max-width: 500px) {
+
+    .navbar {
+        display: flex;
+        margin: auto;
+        padding: 4%;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 3%;
+
+    }
+
+    a {
+        color: aliceblue;
+        text-shadow: yellow;
+        font-weight: bold;
+        font-size: 8px;
+        text-decoration: dashed solid;
+        text-decoration-color: rgb(255, 255, 255);
+    }
+
+
+}
